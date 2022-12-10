@@ -16,11 +16,13 @@ int main(void)
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		putchar(x);
-		y = toupper(x);
-		putchar(y);
-		putchar('\n');
 
 	}
+	for (y = 'A'; y <= 'Z'; y++)
+	{
+		putchar(y);
+	}
+	putchar('\n');
 
 	return (0);
 }
