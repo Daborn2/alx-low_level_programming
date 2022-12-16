@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
- * i: variable
+ * main - tests function that prints if interger is positive or negative
  * Return: 0
  */
 int main(void)
